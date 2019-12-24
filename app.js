@@ -1,6 +1,6 @@
 const { formatDate, formatTime } = require('./index');
 
 const timeStamp2 = new Date();
-const format = '12h';
+const format = 'others';
 
-console.log(formatTime(timeStamp2, format))
+console.log(formatDate(timeStamp2, format))
