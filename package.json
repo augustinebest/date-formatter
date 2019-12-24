@@ -1,5 +1,5 @@
 {
-  "name": "date-formatter",
+  "name": "reformat-date",
   "version": "1.0.0",
   "description": "A package that format date from timestamp to human readable format",
   "main": "index.js",
