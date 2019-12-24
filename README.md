@@ -1,7 +1,9 @@
-![](public/Reformat-logo.jpeg)
+<div align="center">
+<img src="public/Reformat-logo.jpeg" alt="reformat-date" width="300"/>
 
 ### This package can be used from small scale to large scale project
 
+</div>
 #### How to use
 
 **step 1:** Install reformat-date
@@ -14,7 +16,7 @@ const { formatDate, formatTime } = require('reformat-date');
 ```
 **step 3:** Pass in the current date as an argument and the format you want it to return (i.e 12hr/24hr) when you call the function
 
-####- For time format
+#### - For time format
 ```bash
 let currentDate = new Date();
 let format = 'dd/mm/yyyy'; // or mm/dd/yyyy or yyyy/mm/dd returns in the specified format passed 
@@ -26,7 +28,7 @@ let format = 'others'; // returns in this format; e.g Tuesday 24th of December, 
 formatDate(currentDate, format);
 ```
 
-####- For date format
+#### - For date format
 ```bash
 let currentDate = new Date();
 let format = '12h'; // returns 12h format along with either am or pm
@@ -40,4 +42,4 @@ formatDate(currentDate, format);
 
 ### for contributions
 
-See [here](https://github.com/augutinebest)
+See [here](https://github.com/augustinebest/date-formatter/blob/master/CONTRIBUTING.md)
